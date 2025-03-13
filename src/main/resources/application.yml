@@ -8,6 +8,11 @@ spring:
     url: jdbc:mysql://db-324oc2-kr.vpc-pub-cdb.ntruss.com/studydb?serverTimezone=Asia/Seoul
     username: study
     password: bitcamp!@#123 
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    check-template-location: true
 
 #mybatis settings
 mybatis:
